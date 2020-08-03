@@ -11,7 +11,7 @@
       <div class='item'>
 
         <div class='date'>
-          <% day[:month] %>/<% day[:date] %>
+          <%= day[:month] %>/<%= day[:date] %> <%= day[:wdays] %> 
         </div>
         <ul class='content'>
         <% if day[:plans].length != 0 %>
